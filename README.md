@@ -6,6 +6,8 @@
 
 📜 Over **7000+ lines** of insights into their structure and functionality.  
 
+[![Build Status](https://app.cloudback.it/badge/x1xhlol/system-prompts-and-models-of-ai-tools)](https://cloudback.it)
+
 ## 📂 **Available Files**
 - **v0 Folder**  
 - **Manus Folder**
