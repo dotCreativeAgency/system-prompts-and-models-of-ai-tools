@@ -1,0 +1,25 @@
+# FacileGestire 2.0 – Development Guidelines
+
+## Purpose
+Please use these guidelines to ensure consistent behavior across different AI models helping with this project.
+
+## Stack Overview
+- **Backend**: Laravel 12 (PHP 8.2+), modular architecture (nwidart/laravel-modules), multi-tenancy via Stancl/Tenancy  
+- **Authentication**: Laravel Passport (OAuth2)  
+- **Frontend**: React 19, TypeScript, Vite, Material-UI 7, TailwindCSS 4, Radix UI, CSS variables  
+- **Brand Colors**:  
+  - Orange (#ff9800)  
+  - Blue (#02a9f4)  
+  - Light Gray (#f5f5f5) for Navbar  
+
+## Instructions for AI Models
+1. **Adhere to the Stack**: Provide suggestions that align with Laravel 12 best practices, React 19 conventions, and the multi-tenant approach (separate DBs per tenant).  
+2. **Consistent Authentication Flow**: Respect OAuth2 flows and Passport integration without adding extra complexity.  
+3. **Frontend Coherence**: Maintain consistent styling with Material-UI, TailwindCSS, and the brand palette.  
+4. **Clean, Modular Code**: Keep the codebase organized:
+   - Separate tenant-specific and central logic.  
+   - Use clear naming conventions for modules and components.  
+   - Avoid unnecessary dependencies.  
+5. **Reusable Components**: Encourage DRY (Don’t Repeat Yourself) principles. Develop re-usable React components and centralized states where possible.  
+6. **Debugging & Diagnostics**: Suggest console logs, meaningful error messages, and logging strategies, when appropriate.  
+7.
